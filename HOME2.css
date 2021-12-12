@@ -1,0 +1,90 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;;
+    width: 100%;
+    height: 100%;
+}
+.section-top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(K.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    animation: slide 10s infinite;
+
+}
+.content{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-transform: uppercase;
+    text-align: center;
+}
+.content h1{
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    font-size: 55px;
+    letter-spacing: 7px;
+}
+.content #aot{
+    font-size: 30px;
+}
+.content h2{
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+.content a{
+    background-color: #e67e22;
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none; 
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.Info p{
+    column-count: 2;
+    column-gap: 30px;
+    column-width: 50px;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 24px;
+    position: relative;
+    overflow: hidden;
+    background-color: #66000000;
+    opacity: 0.5;
+    margin-top: 20px;
+    border-color:  100px, black;
+    position: relative;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    word-spacing: 5px;
+}
+.Info h1{
+    text-align: center;
+}
+.Info h2{
+    margin-left: 50px;
+}
+@keyframes slide{
+    0%{
+        background-image: url(K.jpg);
+    }
+    25%{
+        background-image: url(BW.jpg);
+    }
+    35%{
+        background-image: url(BG3.png);
+    }
+    45%{
+        background-image: url(P1.jpg);
+    }
+}
