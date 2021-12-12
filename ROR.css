@@ -1,0 +1,57 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+body {
+    background: url(J1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#char{
+
+
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none; 
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: right;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    animation: slide 10s infinite;
+    background-color: #4b5320;
+    opacity: .6;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    margin-top: 100px;
+
+        font-weight: bold;
+}
+
+
+.choices{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px;
+}
+li{
+    font-family: "Times New Roman", "Times", "Kai", "KaiTi", Serif;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom:100px;
+    position: relative;
+
+}
